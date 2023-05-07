@@ -62,7 +62,7 @@
 				1F0D77E72A084BDE00F955B3 /* ViewControllers */,
 				1F0D77E42A084B9100F955B3 /* Storyboards */,
 				1F0D77E52A084BA300F955B3 /* Resources */,
-				1F0D77E82A084FB800F955B3 /* Deal.swift */,
+				1F0D77ED2A0860B700F955B3 /* Models */,
 			);
 			path = BestDeals;
 			sourceTree = "<group>";
@@ -100,6 +100,14 @@
 				1F0D77EA2A0850BA00F955B3 /* DealViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1F0D77ED2A0860B700F955B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F0D77E82A084FB800F955B3 /* Deal.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
