@@ -61,8 +61,8 @@ extension DealViewController {
             
             do {
                 let decoder = JSONDecoder()
-                let deal = try decoder.decode(Deal.self, from: data)
-                print(deal)
+                let deals = try decoder.decode([Deal].self, from: data)
+                print(deals)
                 self.showAlert(withStatus: .success)
             } catch {
                 print(error.localizedDescription)

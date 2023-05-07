@@ -9,8 +9,8 @@ import Foundation
 
 struct Deal: Decodable {
     let title: String
-    let salePrice: Double
-    let normalPrice: Double
-    let metacriticScore: Int
+    let salePrice: String
+    let normalPrice: String
+    let metacriticScore: String
     let thumb: URL
 }
