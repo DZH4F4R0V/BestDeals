@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		1F0D77D12A08479200F955B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0D77D02A08479200F955B3 /* AppDelegate.swift */; };
 		1F0D77D32A08479200F955B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0D77D22A08479200F955B3 /* SceneDelegate.swift */; };
-		1F0D77D52A08479200F955B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0D77D42A08479200F955B3 /* ViewController.swift */; };
 		1F0D77D82A08479200F955B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0D77D62A08479200F955B3 /* Main.storyboard */; };
 		1F0D77DA2A08479400F955B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0D77D92A08479400F955B3 /* Assets.xcassets */; };
 		1F0D77DD2A08479400F955B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0D77DB2A08479400F955B3 /* LaunchScreen.storyboard */; };
+		1F0D77E92A084FB800F955B3 /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0D77E82A084FB800F955B3 /* Deal.swift */; };
+		1F0D77EB2A0850BA00F955B3 /* DealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0D77EA2A0850BA00F955B3 /* DealViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F0D77CD2A08479200F955B3 /* BestDeals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestDeals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0D77D02A08479200F955B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F0D77D22A08479200F955B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F0D77D42A08479200F955B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F0D77D72A08479200F955B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F0D77D92A08479400F955B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F0D77DC2A08479400F955B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F0D77DE2A08479400F955B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0D77E82A084FB800F955B3 /* Deal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
+		1F0D77EA2A0850BA00F955B3 /* DealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				1F0D77E72A084BDE00F955B3 /* ViewControllers */,
 				1F0D77E42A084B9100F955B3 /* Storyboards */,
 				1F0D77E52A084BA300F955B3 /* Resources */,
+				1F0D77E82A084FB800F955B3 /* Deal.swift */,
 			);
 			path = BestDeals;
 			sourceTree = "<group>";
@@ -94,7 +97,7 @@
 		1F0D77E72A084BDE00F955B3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				1F0D77D42A08479200F955B3 /* ViewController.swift */,
+				1F0D77EA2A0850BA00F955B3 /* DealViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -170,9 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F0D77D52A08479200F955B3 /* ViewController.swift in Sources */,
 				1F0D77D12A08479200F955B3 /* AppDelegate.swift in Sources */,
 				1F0D77D32A08479200F955B3 /* SceneDelegate.swift in Sources */,
+				1F0D77EB2A0850BA00F955B3 /* DealViewController.swift in Sources */,
+				1F0D77E92A084FB800F955B3 /* Deal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +325,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5YWKHX2833;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BestDeals/Info.plist;
+				INFOPLIST_FILE = BestDeals/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -349,7 +353,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5YWKHX2833;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BestDeals/Info.plist;
+				INFOPLIST_FILE = BestDeals/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
